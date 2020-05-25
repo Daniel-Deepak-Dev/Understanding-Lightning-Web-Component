@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Bubble Up Example" icon-name="standard:logging">
+        <div class="slds-var-m-around_medium" oninputtext={hanleInputText}>
+            <div class="slds-box">
+                <div><b>Contianer Component</b></div>
+                <div>
+                    Value from child bubbled up all over to the top of Shadow DOM : {bubbleValue}
+                </div>
+                <c-bubble-up-parent></c-bubble-up-parent>
+            </div>
+        </div>
+        <c-github-view-source source="lwc/bubbleUpParent" slot="footer">
+            Child-Parent & Child-GrandParent communitcation using bubble property in event
+        </c-github-view-source>
+    </lightning-card>
+</template>

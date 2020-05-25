@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-box">
+        <div><b>Parent Component</b></div>
+        <div>
+            Bubbled Value From Child : {bubbledValue}
+        </div>
+        <div oninputtext={hanleInputText}>
+            <c-bubble-up-child></c-bubble-up-child>
+        </div>
+    </div>
+</template>
