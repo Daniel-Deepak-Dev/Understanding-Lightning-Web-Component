@@ -9,9 +9,9 @@
     - Install Visual Studio Code
     - Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension
 
-1. If you haven't already done so, authorize your hub org and provide it with an alias (**myhuborg** in the command below):
+1. If you haven't already done so, authorize your hub org and provide it with an alias (**myDevOrg** in the command below):
     ```
-    sfdx force:auth:web:login -d -a myhuborg
+    sfdx force:auth:web:login -d -a myDevOrg
     ```
 1. Clone the Understanding-Lightning-Web-Component repository:
 
