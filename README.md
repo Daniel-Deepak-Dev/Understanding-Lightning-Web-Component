@@ -28,5 +28,5 @@
 
     ```
     sfdx force:user:permset:assign -n mylwc
-    ``
+    ```
 
