@@ -1,4 +1,4 @@
-# MY lWC
+# MY LWC
 
 ## Installing the app in developer edition using a VScode
 
